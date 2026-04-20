@@ -1,11 +1,11 @@
 <?php
 
-namespace Vsmov\Core\Database\Seeders;
+namespace VsMov\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Vsmov\Core\Models\Category;
-use Vsmov\Core\Models\Region;
+use VsMov\Core\Models\Category;
+use VsMov\Core\Models\Region;
 
 class RegionsTableSeeder extends Seeder
 {

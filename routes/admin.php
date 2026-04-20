@@ -15,7 +15,7 @@ Route::group([
         (array) config('backpack.base.web_middleware', 'web'),
         (array) config('backpack.base.middleware_key', 'admin')
     ),
-    'namespace'  => 'Vsmov\Core\Controllers\Admin',
+    'namespace'  => 'VsMov\Core\Controllers\Admin',
 ], function () {
     if (config('backpack.base.setup_dashboard_routes')) {
         Route::get('dashboard', 'AdminController@dashboard')->name('backpack.dashboard');
@@ -41,7 +41,7 @@ Route::group([
     'prefix'     => config('backpack.base.route_prefix', 'admin'),
     'middleware' => array_merge(
         [
-            \Vsmov\Core\Middleware\EncryptCookies::class,
+            \VsMov\Core\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,

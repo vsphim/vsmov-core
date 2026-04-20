@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\RegionRequest;
+use VsMov\Core\Requests\RegionRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Region;
+use VsMov\Core\Models\Region;
 
 /**
  * Class RegionCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class RegionCrudController extends CrudController
@@ -27,7 +27,7 @@ class RegionCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Region::class);
+        CRUD::setModel(\VsMov\Core\Models\Region::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/region');
         CRUD::setEntityNameStrings('region', 'regions');
     }

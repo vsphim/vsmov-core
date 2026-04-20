@@ -1,12 +1,12 @@
 <?php
 
-namespace Vsmov\Core\Models;
+namespace VsMov\Core\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Vsmov\CachingModel\Contracts\Cacheable;
 use Vsmov\CachingModel\HasCache;
 use Illuminate\Database\Eloquent\Model;
-use Vsmov\Core\Traits\HasFactory;
+use VsMov\Core\Traits\HasFactory;
 
 class Menu extends Model implements Cacheable
 {

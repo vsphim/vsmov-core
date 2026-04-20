@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Database\Factories;
+namespace VsMov\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsmov\Core\Models\Episode;
+use VsMov\Core\Models\Episode;
 use Illuminate\Support\Str;
 
 class EpisodeFactory extends Factory

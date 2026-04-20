@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Policies;
+namespace VsMov\Core\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 

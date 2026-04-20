@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Database\Factories;
+namespace VsMov\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsmov\Core\Models\Category;
+use VsMov\Core\Models\Category;
 use Illuminate\Support\Str;
 
 class CategoryFactory extends Factory

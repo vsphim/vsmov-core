@@ -1,16 +1,16 @@
 <?php
 
-namespace Vsmov\Core\Models;
+namespace VsMov\Core\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\Settings\app\Models\Setting;
-use Vsmov\Core\Contracts\TaxonomyInterface;
+use VsMov\Core\Contracts\TaxonomyInterface;
 use Vsmov\CachingModel\Contracts\Cacheable;
 use Vsmov\CachingModel\HasCache;
 use Illuminate\Database\Eloquent\Model;
-use Vsmov\Core\Contracts\SeoInterface;
-use Vsmov\Core\Traits\HasFactory;
-use Vsmov\Core\Traits\Sluggable;
+use VsMov\Core\Contracts\SeoInterface;
+use VsMov\Core\Traits\HasFactory;
+use VsMov\Core\Traits\Sluggable;
 use Illuminate\Support\Str;
 use Artesaos\SEOTools\Facades\JsonLdMulti;
 use Artesaos\SEOTools\Facades\OpenGraph;

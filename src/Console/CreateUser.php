@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Console;
+namespace VsMov\Core\Console;
 
 use Illuminate\Console\Command;
 use Spatie\Permission\Models\Role;

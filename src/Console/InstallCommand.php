@@ -1,17 +1,17 @@
 <?php
 
-namespace Vsmov\Core\Console;
+namespace VsMov\Core\Console;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Vsmov\Core\Database\Seeders\CatalogsTableSeeder;
-use Vsmov\Core\Database\Seeders\CategoriesTableSeeder;
-use Vsmov\Core\Database\Seeders\MenusTableSeeder;
-use Vsmov\Core\Database\Seeders\PermissionsSeeder;
-use Vsmov\Core\Database\Seeders\RegionsTableSeeder;
-use Vsmov\Core\Database\Seeders\SettingsTableSeeder;
-use Vsmov\Core\Database\Seeders\ThemesTableSeeder;
+use VsMov\Core\Database\Seeders\CatalogsTableSeeder;
+use VsMov\Core\Database\Seeders\CategoriesTableSeeder;
+use VsMov\Core\Database\Seeders\MenusTableSeeder;
+use VsMov\Core\Database\Seeders\PermissionsSeeder;
+use VsMov\Core\Database\Seeders\RegionsTableSeeder;
+use VsMov\Core\Database\Seeders\SettingsTableSeeder;
+use VsMov\Core\Database\Seeders\ThemesTableSeeder;
 
 class InstallCommand extends Command
 {

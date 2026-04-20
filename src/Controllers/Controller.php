@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Controllers;
+namespace VsMov\Core\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

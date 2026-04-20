@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Rules;
+namespace VsMov\Core\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\DB;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

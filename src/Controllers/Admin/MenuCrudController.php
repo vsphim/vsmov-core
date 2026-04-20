@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\CoreHttp\Requests\MenuRequest;
+use VsMov\Core\Requests\MenuRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Menu;
+use VsMov\Core\Models\Menu;
 
 /**
  * Class MenuCrudController
- * @package Vsmov\CoreHttp\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class MenuCrudController extends CrudController
@@ -20,7 +20,7 @@ class MenuCrudController extends CrudController
     use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 
-    use \Vsmov\Core\Traits\Operations\BulkDeleteOperation {
+    use \VsMov\Core\Traits\Operations\BulkDeleteOperation {
         bulkDelete as traitBulkDelete;
     }
 

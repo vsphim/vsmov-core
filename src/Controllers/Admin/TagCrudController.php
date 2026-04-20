@@ -1,11 +1,11 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Tag;
-use Vsmov\Core\Requests\TagRequest;
+use VsMov\Core\Models\Tag;
+use VsMov\Core\Requests\TagRequest;
 
 /**
  * Class TagCrudController
@@ -27,7 +27,7 @@ class TagCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Tag::class);
+        CRUD::setModel(\VsMov\Core\Models\Tag::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/tag');
         CRUD::setEntityNameStrings('tag', 'tags');
     }

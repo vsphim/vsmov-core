@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\StudioRequest;
+use VsMov\Core\Requests\StudioRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Studio;
+use VsMov\Core\Models\Studio;
 
 /**
  * Class StudioCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class StudioCrudController extends CrudController
@@ -27,7 +27,7 @@ class StudioCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Studio::class);
+        CRUD::setModel(\VsMov\Core\Models\Studio::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/studio');
         CRUD::setEntityNameStrings('studio', 'studios');
     }

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Vsmov\Core\Middleware;
+namespace VsMov\Core\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

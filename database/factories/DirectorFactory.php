@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Database\Factories;
+namespace VsMov\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsmov\Core\Models\Director;
+use VsMov\Core\Models\Director;
 use Illuminate\Support\Str;
 
 class DirectorFactory extends Factory

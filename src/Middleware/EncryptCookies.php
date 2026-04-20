@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Middleware;
+namespace VsMov\Core\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\CoreHttp\Requests;
+namespace VsMov\Core\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

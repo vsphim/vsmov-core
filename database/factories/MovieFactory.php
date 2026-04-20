@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Database\Factories;
+namespace VsMov\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsmov\Core\Models\Movie;
+use VsMov\Core\Models\Movie;
 use Illuminate\Support\Str;
 
 class MovieFactory extends Factory

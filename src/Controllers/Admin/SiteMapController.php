@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
@@ -10,14 +10,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL as LARURL;
 use Illuminate\Support\Facades\File;
 use Carbon\Carbon;
-use Vsmov\Core\Models\Actor;
-use Vsmov\Core\Models\Catalog;
-use Vsmov\Core\Models\Category;
-use Vsmov\Core\Models\Director;
-use Vsmov\Core\Models\Movie;
-use Vsmov\Core\Models\Region;
-use Vsmov\Core\Models\Studio;
-use Vsmov\Core\Models\Tag;
+use VsMov\Core\Models\Actor;
+use VsMov\Core\Models\Catalog;
+use VsMov\Core\Models\Category;
+use VsMov\Core\Models\Director;
+use VsMov\Core\Models\Movie;
+use VsMov\Core\Models\Region;
+use VsMov\Core\Models\Studio;
+use VsMov\Core\Models\Tag;
 use Prologue\Alerts\Facades\Alert;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\SitemapIndex;

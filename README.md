@@ -22,9 +22,9 @@
 3. Then, run command: `php artisan vsmov:install`
 4. Change app\Models\User:
 ```php
-use Vsmov\Core\Models\User as VsmovUser;
+use VsMov\Core\Models\User as VsMovUser;
 
-class User extends VsmovUser {
+class User extends VsMovUser {
     use HasApiTokens, HasFactory, Notifiable;
     // ...
 }

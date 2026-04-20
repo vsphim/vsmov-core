@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Console;
+namespace VsMov\Core\Console;
 
 use Illuminate\Console\Command;
-use Vsmov\Core\Database\Seeders\MenusTableSeeder;
+use VsMov\Core\Database\Seeders\MenusTableSeeder;
 
 class GenerateMenuCommand extends Command
 {

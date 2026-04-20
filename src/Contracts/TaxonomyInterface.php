@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Contracts;
+namespace VsMov\Core\Contracts;
 
 interface TaxonomyInterface extends HasUrlInterface
 {

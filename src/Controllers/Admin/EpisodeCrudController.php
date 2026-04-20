@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Http\Request;
-use Vsmov\Core\Models\Episode;
+use VsMov\Core\Models\Episode;
 
 /**
  * Class EpisodeCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class EpisodeCrudController extends CrudController
@@ -24,7 +24,7 @@ class EpisodeCrudController extends CrudController
     use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
 
-    use \Vsmov\Core\Traits\Operations\BulkDeleteOperation {
+    use \VsMov\Core\Traits\Operations\BulkDeleteOperation {
         bulkDelete as traitBulkDelete;
     }
 
@@ -35,7 +35,7 @@ class EpisodeCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Episode::class);
+        CRUD::setModel(\VsMov\Core\Models\Episode::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/episode');
         CRUD::setEntityNameStrings('Episode', 'episodes');
         $this->crud->addButtonFromModelFunction('line', 'open_episode', 'openEpisode', 'beginning');

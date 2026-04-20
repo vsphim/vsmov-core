@@ -1,10 +1,10 @@
 <?php
 
-namespace Vsmov\Core\Console;
+namespace VsMov\Core\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use Vsmov\Core\Models\Episode;
+use VsMov\Core\Models\Episode;
 
 class ChangeDomainEpisodeCommand extends Command
 {

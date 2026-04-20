@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Models;
+namespace VsMov\Core\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Foundation\Auth\User as Authenticatable;

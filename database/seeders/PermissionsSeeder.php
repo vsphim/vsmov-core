@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Database\Seeders;
+namespace VsMov\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

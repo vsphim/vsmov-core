@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\CategoryRequest;
+use VsMov\Core\Requests\CategoryRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Category;
+use VsMov\Core\Models\Category;
 
 /**
  * Class CategoryCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class CategoryCrudController extends CrudController
@@ -27,7 +27,7 @@ class CategoryCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Category::class);
+        CRUD::setModel(\VsMov\Core\Models\Category::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/category');
         CRUD::setEntityNameStrings('category', 'categories');
     }

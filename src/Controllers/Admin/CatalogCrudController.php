@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\CatalogRequest;
+use VsMov\Core\Requests\CatalogRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Catalog;
+use VsMov\Core\Models\Catalog;
 
 /**
  * Class CatalogCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class CatalogCrudController extends CrudController
@@ -27,7 +27,7 @@ class CatalogCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Catalog::class);
+        CRUD::setModel(\VsMov\Core\Models\Catalog::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/catalog');
         CRUD::setEntityNameStrings('catalog', 'catalogs');
     }

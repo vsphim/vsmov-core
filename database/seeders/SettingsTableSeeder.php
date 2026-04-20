@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Database\Seeders;
+namespace VsMov\Core\Database\Seeders;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Database\Seeder;
@@ -85,7 +85,7 @@ class SettingsTableSeeder extends Seeder
                     'type' => 'text',
                     'tab' => 'General'
                 ]),
-                'value' => 'Vsmov.COM',
+                'value' => 'VsMov.COM',
                 'active'      => 0,
             ],
             [
@@ -120,7 +120,7 @@ class SettingsTableSeeder extends Seeder
                     'type' => 'textarea',
                     'tab' => 'General'
                 ]),
-                'value' => 'Vsmov.COM',
+                'value' => 'VsMov.COM',
                 'active'      => 0,
             ],
             [
@@ -132,7 +132,7 @@ class SettingsTableSeeder extends Seeder
                     'type' => 'textarea',
                     'tab' => 'General'
                 ]),
-                'value' => 'Vsmov.COM',
+                'value' => 'VsMov.COM',
                 'active'      => 0,
             ],
             [

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vsmov\Core\Database\Seeders;
+namespace VsMov\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Vsmov\Core\Models\Catalog;
+use VsMov\Core\Models\Catalog;
 
 class CatalogsTableSeeder extends Seeder
 {

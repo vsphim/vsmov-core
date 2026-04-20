@@ -1,37 +1,37 @@
 {
-    "name": "vsmov/vsmov-core",
-    "description": "VsMov's core features",
-    "type": "library",
-    "authors": [
-        {
-            "name": "vsmov",
-            "email": "vsmov@gmail.com"
-        }
-    ],
-    "require": {
-        "laravel/framework": "^6|^7|^8",
-        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
-        "vsmov/laravel-caching-model": "^1.0.0",
-        "vsmov/crud": "^1.0.0",
-        "vsmov/settings": "^1.0.0",
-        "vsmov/permissionmanager": "^1.0.0",
-        "spatie/laravel-sitemap": "^5.8",
-        "artesaos/seotools": "^v0.22.1"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "VsMov\\Core\\": "src/",
-            "VsMov\\Core\\Database\\Factories\\": "database/factories/",
-            "VsMov\\Core\\Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "VsMov\\Core\\VsMovServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "stable"
+  "name": "vsmov/vsmov-core",
+  "description": "VsMov's core features",
+  "type": "library",
+  "authors": [
+    {
+      "name": "vsmov",
+      "email": "vsmov@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^6|^7|^8",
+    "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+    "vsmov/laravel-caching-model": "^1.0.0",
+    "vsmov/crud": "^1.0.0",
+    "vsmov/settings": "^1.0.0",
+    "vsmov/permissionmanager": "^1.0.0",
+    "spatie/laravel-sitemap": "^5.8",
+    "artesaos/seotools": "^v0.22.1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "VsMov\\Core\\": "src/",
+      "VsMov\\Core\\Database\\Factories\\": "database/factories/",
+      "VsMov\\Core\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VsMov\\Core\\VsMovServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
 }

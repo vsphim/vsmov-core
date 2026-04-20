@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsmov\Core\Models;
+namespace VsMov\Core\Models;
 
 use Illuminate\Support\Str;
 use Artesaos\SEOTools\Facades\JsonLdMulti;
@@ -9,16 +9,16 @@ use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\TwitterCard;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\Settings\app\Models\Setting;
-use Vsmov\Core\Contracts\TaxonomyInterface;
+use VsMov\Core\Contracts\TaxonomyInterface;
 use Vsmov\CachingModel\Contracts\Cacheable;
 use Vsmov\CachingModel\HasCache;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
-use Vsmov\Core\Contracts\SeoInterface;
-use Vsmov\Core\Traits\ActorLog;
-use Vsmov\Core\Traits\HasFactory;
-use Vsmov\Core\Traits\HasTitle;
-use Vsmov\Core\Traits\Sluggable;
+use VsMov\Core\Contracts\SeoInterface;
+use VsMov\Core\Traits\ActorLog;
+use VsMov\Core\Traits\HasFactory;
+use VsMov\Core\Traits\HasTitle;
+use VsMov\Core\Traits\Sluggable;
 
 class Movie extends Model implements TaxonomyInterface, Cacheable, SeoInterface
 {

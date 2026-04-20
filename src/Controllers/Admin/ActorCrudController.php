@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\ActorRequest;
+use VsMov\Core\Requests\ActorRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Actor;
+use VsMov\Core\Models\Actor;
 
 /**
  * Class ActorCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class ActorCrudController extends CrudController
@@ -27,7 +27,7 @@ class ActorCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Actor::class);
+        CRUD::setModel(\VsMov\Core\Models\Actor::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/actor');
         CRUD::setEntityNameStrings('actor', 'actors');
     }

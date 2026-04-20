@@ -1,10 +1,10 @@
 <?php
 
-namespace Vsmov\Core\Requests;
+namespace VsMov\Core\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Vsmov\Core\Rules\UniqueName;
+use VsMov\Core\Rules\UniqueName;
 
 class TagRequest extends FormRequest
 {

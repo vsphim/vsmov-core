@@ -1,12 +1,12 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
 use Illuminate\Routing\Controller;
-use Vsmov\Core\Models\Movie;
-use Vsmov\Core\Models\Episode;
-use Vsmov\Core\Models\Theme;
-use Vsmov\Core\Models\User;
+use VsMov\Core\Models\Movie;
+use VsMov\Core\Models\Episode;
+use VsMov\Core\Models\Theme;
+use VsMov\Core\Models\User;
 
 class AdminController extends Controller
 {

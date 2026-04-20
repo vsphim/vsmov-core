@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\DirectorRequest;
+use VsMov\Core\Requests\DirectorRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Vsmov\Core\Models\Director;
+use VsMov\Core\Models\Director;
 
 /**
  * Class DirectorCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class DirectorCrudController extends CrudController
@@ -27,7 +27,7 @@ class DirectorCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Director::class);
+        CRUD::setModel(\VsMov\Core\Models\Director::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/director');
         CRUD::setEntityNameStrings('director', 'directors');
     }

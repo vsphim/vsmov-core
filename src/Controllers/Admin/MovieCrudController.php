@@ -1,23 +1,23 @@
 <?php
 
-namespace Vsmov\Core\Controllers\Admin;
+namespace VsMov\Core\Controllers\Admin;
 
-use Vsmov\Core\Requests\MovieRequest;
+use VsMov\Core\Requests\MovieRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Vsmov\Core\Models\Actor;
-use Vsmov\Core\Models\Director;
-use Vsmov\Core\Models\Movie;
-use Vsmov\Core\Models\Region;
-use Vsmov\Core\Models\Studio;
-use Vsmov\Core\Models\Category;
-use Vsmov\Core\Models\Tag;
+use VsMov\Core\Models\Actor;
+use VsMov\Core\Models\Director;
+use VsMov\Core\Models\Movie;
+use VsMov\Core\Models\Region;
+use VsMov\Core\Models\Studio;
+use VsMov\Core\Models\Category;
+use VsMov\Core\Models\Tag;
 
 /**
  * Class MovieCrudController
- * @package Vsmov\Core\Controllers\Admin
+ * @package VsMov\Core\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
 class MovieCrudController extends CrudController
@@ -34,7 +34,7 @@ class MovieCrudController extends CrudController
     }
     use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
 
-    use \Vsmov\Core\Traits\Operations\BulkDeleteOperation {
+    use \VsMov\Core\Traits\Operations\BulkDeleteOperation {
         bulkDelete as traitBulkDelete;
     }
 
@@ -45,7 +45,7 @@ class MovieCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Vsmov\Core\Models\Movie::class);
+        CRUD::setModel(\VsMov\Core\Models\Movie::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/movie');
         CRUD::setEntityNameStrings('movie', 'movies');
         CRUD::setCreateView('vsmov::movies.create',);

@@ -1,15 +1,15 @@
 <?php
 
-namespace Vsmov\Core\Database\Seeders;
+namespace VsMov\Core\Database\Seeders;
 
 use Backpack\Settings\app\Models\Setting;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Vsmov\Core\Models\Category;
-use Vsmov\Core\Models\Menu;
-use Vsmov\Core\Models\Region;
-use Vsmov\Core\Models\Catalog;
-use Vsmov\Core\Models\Theme;
+use VsMov\Core\Models\Category;
+use VsMov\Core\Models\Menu;
+use VsMov\Core\Models\Region;
+use VsMov\Core\Models\Catalog;
+use VsMov\Core\Models\Theme;
 
 class MenusTableSeeder extends Seeder
 {

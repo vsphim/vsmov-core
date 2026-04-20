@@ -1,9 +1,9 @@
 <?php
 
-namespace Vsmov\Core\Database\Factories;
+namespace VsMov\Core\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Vsmov\Core\Models\Region;
+use VsMov\Core\Models\Region;
 use Illuminate\Support\Str;
 
 class RegionFactory extends Factory
