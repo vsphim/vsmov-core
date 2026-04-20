@@ -17,6 +17,7 @@
 - Theme: [MORE...](https://vsmov.com)
 
 # Installation:
+0. Run the Laravel installation command in the web directory: `composer create-project laravel/laravel:^8.0 cms`
 1. CD to project root and run: `composer require vsmov/vsmov-core -W`
 2. Configuration your database connection information in file `.env`
 3. Then, run command: `php artisan vsmov:install`
