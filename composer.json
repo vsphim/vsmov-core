@@ -9,14 +9,15 @@
     }
   ],
   "require": {
-    "laravel/framework": "^6|^7|^8",
-    "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
-    "vsmov/laravel-caching-model": "^1.0.0",
-    "vsmov/crud": "^1.0.0",
-    "vsmov/settings": "^1.0.0",
-    "vsmov/permissionmanager": "^1.0.0",
-    "spatie/laravel-sitemap": "^5.8",
-    "artesaos/seotools": "^v0.22.1"
+      "php": "^8.1 || ^8.2",
+      "artesaos/seotools": "^0.22.1",
+      "ckfinder/ckfinder-laravel-package": "^3.5.2",
+      "laravel/framework": "^8.75",
+      "spatie/laravel-sitemap": "^6.0",
+      "vsmov/crud": "^1.0",
+      "vsmov/laravel-caching-model": "^1.0",
+      "vsmov/permissionmanager": "^1.0",
+      "vsmov/settings": "^1.0"
   },
   "license": "MIT",
   "autoload": {
